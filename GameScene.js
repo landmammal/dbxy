@@ -137,7 +137,7 @@ class GameScene extends Phaser.Scene {
         }else if (gameState.cursors.space.isDown) {
             // power space down:
             // gameState.player.play('down', true);
-            gameState.power.visible=true
+            // gameState.power.visible=true
             gameState.power.anims.play('space',true)
             gameState.power.setVelocityX(160);   
 
